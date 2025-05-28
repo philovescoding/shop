@@ -1,0 +1,79 @@
+.weathergrid{
+    
+    width: auto;
+    display: grid;
+
+     grid-template-rows: repeat(12,3.85vw);
+}
+.beautynum{
+
+    font-size: xx-small;
+    font-family: amatic-sc, sans-serif;
+    padding-top: 15%;
+    color: gainsboro;
+     font-weight: 400;
+padding-right: 10%;
+     font-style: normal;  
+}
+.weather{
+    display: grid;
+    grid-column: 11 / span 1;
+    text-align: right;
+
+}
+@media (min-width: 430px) {
+    .beautynum{
+
+        font-size: small; 
+    }    
+    
+}
+@media (min-width: 515px) {
+    .beautynum{
+
+        font-size: medium; 
+    }    
+    
+}
+@media (min-width: 576px) {
+    .beautynum{
+
+        font-size: large; 
+    }    
+    
+}
+@media (min-width: 750px) {
+    .beautynum{
+
+        font-size: x-large; 
+    }   
+}
+@media (min-width: 992px) {
+    .beautynum{
+
+        font-size: xx-large; 
+    }    
+}
+
+@media (min-width: 1200px) {
+    
+   
+}
+@media (min-width: 1500px) {
+   .beautynum{
+
+        font-size: xxx-large; 
+    }     
+}
+.firstrow{grid-row: 1/ span 1;}
+.secondrow{grid-row: 2/ span 1;}
+.thirdrow{grid-row: 3/ span 1;}
+.forthrow{grid-row: 4/ span 1;}
+.fiftrow{grid-row: 5 /span 1;}
+.sixthrow{grid-row: 6 /span 1;}
+.seventrow{grid-row: 7 /span 1;}
+.eightrow{grid-row: 8 /span 1;}
+.ninerow{grid-row: 9 /span 1;}
+.tenrow{grid-row: 10 /span 1;}
+.elevenrow{grid-row: 11 /span 1;}
+.twelferow{grid-row: 12 /span 1;}

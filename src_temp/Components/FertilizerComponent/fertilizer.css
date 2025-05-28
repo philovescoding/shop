@@ -1,0 +1,68 @@
+.dunger{
+    grid-column: 1/span1;
+    width: 100%;
+}
+
+.headline3{
+font-size: xx-large;
+font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+.middle{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);  
+}
+.headline4{
+    grid-column: 2 /span 5;
+    font-size: x-large;
+    font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+    
+}
+.smallgrid{
+    grid-column: 2 /span 5;
+    height: 40vh;
+    width: 100%;
+    display: grid;
+     grid-template-columns: repeat(4, 20%);
+     grid-template-rows: repeat(10,1fr);
+}
+.firstcol{grid-column: 1 /span 2;}
+.secondcol{
+    grid-column: 3/ span 1;
+    text-align: center;
+}
+.thirdcol{grid-column: 4/ span 1;}
+.firstrow{grid-row: 2/ span 1;}
+.secondrow{grid-row: 3/ span 1;}
+.thirdrow{grid-row: 4/ span 1;}
+.forthrow{grid-row: 5/ span 1;}
+.fiftrow{grid-row: 6 /span 1;}
+.sixthrow{grid-row: 7 /span 1;}
+.seventrow{grid-row: 8 /span 1;}
+.eightrow{grid-row: 9 /span 1;}
+.ninerow{grid-row: 10 /span 1;}
+.tenrow{grid-row: 11 /span 1;}
+.elevenrow{grid-row: 12 /span 1;}
+.twelferow{grid-row: 13 /span 1;}
+.senden{
+    grid-column: 4/ span 1;
+}
+.gießen{
+    grid-column: 1/ span 1;
+}
+.beauty{
+
+    font-size: 2.5vw;
+    font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;  
+}

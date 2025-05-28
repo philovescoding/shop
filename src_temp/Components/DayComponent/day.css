@@ -1,0 +1,186 @@
+.iconsday{
+    display: grid;
+    grid-column: 1 / span 1;
+    
+
+}
+.iconsunny{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/sunny.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconmostlycloudy{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/mostlycloudy.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconclear{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/clear.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconcloudy{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/cloudy.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+
+.iconmostlycloudywsun{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/cloudywithsun.svg");
+    background-size: cover;
+    margin-left: 25%;
+    
+}.iconcold{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/cold.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}.iconhot{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/hot.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}.iconice{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/ice.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}.iconmostlyclear{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/mostlyclear.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}.iconmostlycloudywsnow{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/mostlycloudywsnow.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+
+.iconmostlycloudynight{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/partlycloudynight.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconrain{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/rain.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconshowers{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/showers.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconsnowy{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/snowy.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconstorm{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/storm.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconstormnight{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/stormnight.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconstormwithsun{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/stormwithsun.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+
+.iconcloudsandsun{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/clouds-and-sun.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.iconmostlycloudywrainnight{
+    width:56%;
+    height: 100%;
+    background-image: url("/src/assets/mostlycloudywrainnight.svg");
+    background-size: cover;
+    margin-left: 20%;
+    
+}
+.weatherdaygridicon{
+    
+    width: auto;
+    display: grid;
+
+     grid-template-rows: repeat(10,4.6vw);
+}
+
+.firstrow{grid-row: 1/ span 1;}
+.secondrow{grid-row: 2/ span 1;}
+.thirdrow{grid-row: 3/ span 1;}
+.forthrow{grid-row: 4/ span 1;}
+.fiftrow{grid-row: 5 /span 1;}
+.sixthrow{grid-row: 6 /span 1;}
+.seventrow{grid-row: 7 /span 1;}
+.eightrow{grid-row: 8 /span 1;}
+.ninerow{grid-row: 9 /span 1;}
+.tenrow{grid-row: 10 /span 1;}
+.elevenrow{grid-row: 11 /span 1;}
+.twelferow{grid-row: 12 /span 1;}
+.border{
+    border-style: solid;
+    border-width: 0px 0px 4px 0px;
+    border-color: gainsboro;
+}
+.bordertop{
+    border-style: solid;
+    border-width: 4px 0px 0px 0px;
+    border-color: gainsboro;
+}

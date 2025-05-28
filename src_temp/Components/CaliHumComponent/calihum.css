@@ -1,0 +1,176 @@
+.cali{
+    grid-template-columns: 2fr 1fr 1fr;
+    display: grid;
+    grid-column: 2/ span 1;
+    width: 100%;
+}
+
+.headline3{
+font-size: xx-large;
+font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+}
+.middle{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);  
+}
+
+.paddinglinks{
+    padding-left: 20%;
+    
+    }
+    .paddinglinks2{
+        padding-left: 13%;
+        
+        }
+.headline4{
+    font-size: x-large;
+    font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;
+    
+}
+.paddingtop{
+    padding-top: 100px;
+}
+.paddingtop2{
+    padding-top: 5px;
+}
+.paddingtop3{
+    padding-top: 25px;
+}
+.margintop3{
+    margin-top: 25px;
+}
+.marginleft{
+    padding-left: 10%;
+}
+.paddingleft3{
+    padding-left: 10%;
+    width: 40%;
+}
+.gridd{
+    grid-template-columns: 28% 17% 5% 50%;
+display: grid;
+}
+.breite{
+    width: 10%;
+}
+.breite{
+    width: 100%;
+}
+.marginleft2{
+    padding-right: 15%;
+    display: flex;
+    float: right;
+}
+.infotext2{
+    grid-column: 1/ span 1;
+
+}
+.rightfloat{
+    display: flex;
+    float: right;
+    width: 50%;
+}
+.bigger{
+    font-size: 4vw!important;
+}
+.btnn {
+    width: 98%;
+    height: 5vw;
+    font-size: 4vw;
+}
+.gridtemp{
+
+    grid-template-columns: repeat(2, 1fr);
+}
+.button1{
+    grid-column: 2/ span 1;
+    width: 50%;
+}
+.button2{
+    grid-column: 3/ span 1; 
+}
+.button5{
+    grid-column: 4/ span 1; 
+}
+.smallgridc{
+    height: 40vh;
+    width: 100%;
+    display: grid;
+     grid-template-columns: repeat(5, 6.66vw);
+     grid-template-rows: repeat(10,1fr);
+}
+.firstcol{grid-column: 1 /span 2;}
+.secondcol{
+    grid-column: 3/ span 1;
+    text-align: center;
+}
+.thirdcol{grid-column: 4/ span 1;}
+.firstrow{grid-row: 2/ span 1;}
+.secondrow{grid-row: 3/ span 1;}
+.thirdrow{grid-row: 4/ span 1;}
+.forthrow{grid-row: 5/ span 1;}
+.fiftrow{grid-row: 6 /span 1;}
+.sixthrow{grid-row: 7 /span 1;}
+.seventrow{grid-row: 8 /span 1;}
+.eightrow{grid-row: 9 /span 1;}
+.ninerow{grid-row: 10 /span 1;}
+.tenrow{grid-row: 11 /span 1;}
+.elevenrow{grid-row: 12 /span 1;}
+.twelferow{grid-row: 13 /span 1;}
+.senden{
+    grid-column: 4/ span 1;
+}
+.gießen{
+    grid-column: 1/ span 1;
+}
+.beautyc{
+
+    font-size: 2.5vw;
+    font-family: amatic-sc, sans-serif;
+
+     font-weight: 400;
+
+     font-style: normal;  
+}
+
+.slidecontainer {
+    width: 100%; /* Width of the outside container */
+  }
+  
+ .slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 15px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%; 
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 2%;
+  background: #04AA6D;
+  cursor: pointer;
+}
