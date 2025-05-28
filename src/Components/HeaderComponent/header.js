@@ -121,7 +121,7 @@ function Header() {
                               </Link>
                          </div>
                     </div>
-                    <Link to="/" className="logo">
+                    <Link to="/admin" className="logo">
                          <img className="img" src={process.env.PUBLIC_URL +'/img/Logo.png'} alt="logo" />
                     </Link>
                     <div
