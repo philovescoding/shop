@@ -891,7 +891,7 @@ const Admin = (props) => {
                     alert("Fill out all Values")
                     return
                } else {
-                    fetch("http://" + url + "/api/postitem/kleidung", {
+                    fetch("https://" + url + "/api/postitem/kleidung", {
                          method: "POST",
                          headers: {
                               "Content-Type": "application/json"
@@ -991,7 +991,7 @@ const Admin = (props) => {
                     alert("Fill out all Values")
                     return
                } else {
-                    fetch("http://" + url + "/api/postitem/bears", {
+                    fetch("https://" + url + "/api/postitem/bears", {
                          method: "POST",
                          headers: {
                               "Content-Type": "application/json"
