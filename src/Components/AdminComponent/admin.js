@@ -525,7 +525,7 @@ const Admin = (props) => {
                alert("Fill out all Values")
                return
           } else {
-               fetch("http://" + url + "/api/deleteitem/", {
+               fetch("https://" + url + "/api/deleteitem/", {
                     method: "POST",
                     headers: {
                          "Content-Type": "application/json"
