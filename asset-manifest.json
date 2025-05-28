@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/shop/static/css/main.54d83afe.css",
-    "main.js": "/shop/static/js/main.a6784834.js",
+    "main.js": "/shop/static/js/main.66fb5202.js",
     "static/media/Kleidung-start.jpg": "/shop/static/media/Kleidung-start.1ceb96b7bf08df4209ec.jpg",
     "static/media/Accessoires-start.jpg": "/shop/static/media/Accessoires-start.8ea537a4830a5cd5ccf3.jpg",
     "static/media/barli.jpg": "/shop/static/media/barli.c5da4101b2a8562dbbee.jpg",
     "index.html": "/shop/index.html",
     "main.54d83afe.css.map": "/shop/static/css/main.54d83afe.css.map",
-    "main.a6784834.js.map": "/shop/static/js/main.a6784834.js.map"
+    "main.66fb5202.js.map": "/shop/static/js/main.66fb5202.js.map"
   },
   "entrypoints": [
     "static/css/main.54d83afe.css",
-    "static/js/main.a6784834.js"
+    "static/js/main.66fb5202.js"
   ]
 }
